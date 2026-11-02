@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anush Varma Kakarlapudi – IT Help Desk &amp; L1 Support Engineer</title>
+<meta name="description" content="IT Help Desk and L1 Support Engineer in Hyderabad focused on incident management and application monitoring.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f5f8;--panel:#fff;--ink:#0d1a2c;--muted:#4b5a6e;--line:#d3dae3;--accent:#1c4fd6;--ok:#12803f;--okbg:#e2f4e9;
+--display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1220;--panel:#111c30;--ink:#e8edf5;--muted:#98a6ba;--line:#223250;--accent:#7ea4ff;--ok:#43d889;--okbg:#12301f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1220;--panel:#111c30;--ink:#e8edf5;--muted:#98a6ba;--line:#223250;--accent:#7ea4ff;--ok:#43d889;--okbg:#12301f;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.top .wrap{display:flex;align-items:center;gap:22px;height:60px;overflow-x:auto;white-space:nowrap}
+.top b{font:800 18px var(--display);margin-right:auto;letter-spacing:-.01em}
+.top a{color:var(--muted);text-decoration:none;font-size:15px}
+.top a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center;padding:84px 0 72px}
+h1{font:800 clamp(42px,7.4vw,84px)/1 var(--display);letter-spacing:-.035em;margin:0 0 24px}
+.lede{font-size:clamp(19px,2.4vw,23px);line-height:1.5;max-width:30em;margin:0 0 28px}
+.sub{color:var(--muted);margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:500;text-decoration:none;border:1.5px solid var(--ink);color:var(--ink)}
+.btn.p{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--accent)}
+.ticket{background:var(--panel);border:1px solid var(--line);border-radius:6px;box-shadow:0 1px 0 var(--line)}
+.ticket header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px dashed var(--line)}
+.ticket h2{font:600 18px var(--display);margin:0}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--okbg);color:var(--ok);font-size:14px;font-weight:500;padding:3px 12px;border-radius:999px;white-space:nowrap}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);animation:pulse 2s ease-out 3}
+@keyframes pulse{0%{box-shadow:0 0 0 0 var(--ok)}100%{box-shadow:0 0 0 10px transparent}}
+.ticket dl{margin:0;padding:8px 20px 16px}
+.ticket dl div{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.ticket dl div:last-child{border:0}
+dt{color:var(--muted);font-size:15px}
+dd{margin:0;font-size:16px}
+section.row{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:56px 0;border-top:1px solid var(--line)}
+section.row>h2{font:800 26px/1.2 var(--display);letter-spacing:-.02em;margin:0}
+p{margin:0 0 16px;max-width:38em}
+.skills div{display:grid;grid-template-columns:170px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.skills div:first-child{padding-top:0}
+.skills dt{color:var(--ink);font-weight:500}
+.skills dd{color:var(--muted)}
+.job{border-left:4px solid var(--line);padding:2px 0 2px 24px;margin-bottom:40px}
+.job.now{border-color:var(--ok)}
+.job header{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;align-items:baseline}
+.job h3{font:600 21px/1.3 var(--display);margin:0}
+.job .when{color:var(--muted);font-size:15px}
+.job .org{margin:2px 0 12px;color:var(--muted)}
+.job ul{margin:0;padding-left:20px}
+.job li{margin-bottom:8px;max-width:40em}
+.edu p{margin-bottom:20px}
+.edu b{font-weight:500}
+.mail{display:block;font:800 clamp(18px,5vw,36px)/1.2 var(--display);letter-spacing:-.02em;color:var(--ink);overflow-wrap:anywhere;margin:6px 0 20px}
+.mail:hover{color:var(--accent)}
+.mailcard{display:flex;align-items:center;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 20px;max-width:560px;margin:0 0 20px}
+.mailcard svg{width:28px;height:28px;color:var(--accent);flex:none}
+.mc-text{flex:1;min-width:0;display:flex;flex-direction:column}
+.mc-label{color:var(--muted);font-size:14px}
+.mc-addr{font:600 clamp(15px,4.2vw,20px)/1.3 var(--display);color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.mc-addr:hover{color:var(--accent)}
+.mc-copy{font:500 15px var(--body);padding:8px 16px;border-radius:8px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;flex:none}
+.mc-copy:hover{border-color:var(--accent);color:var(--accent)}
+footer{border-top:1px solid var(--line);padding:28px 0 calc(28px + env(safe-area-inset-bottom,0px));color:var(--muted);font-size:15px}
+@media (max-width:860px){.hero{grid-template-columns:1fr;gap:40px;padding:56px 0 48px}}
+@media (max-width:720px){section.row{grid-template-columns:1fr;gap:20px;padding:40px 0}.skills div{grid-template-columns:1fr;gap:2px}.top a:nth-of-type(n+4){display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.dot{animation:none}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><b>Anush Varma</b><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div>
+<main class="wrap">
+<section class="hero">
+<div>
+<h1>Anush Varma Kakarlapudi</h1>
+<p class="lede">First-line support that is documented, on time, and escalated with the full story.</p>
+<p class="sub">IT Help Desk &amp; L1 Support Engineer in Hyderabad, growing into incident management and application monitoring.</p>
+<div class="btns"><a class="btn p" href="#contact">Contact me</a><a class="btn" href="#experience">See my experience</a></div>
+</div>
+<aside class="ticket" aria-label="Availability">
+<header><h2>Open to new roles</h2><span class="pill"><span class="dot"></span>Open</span></header>
+<dl>
+<div><dt>Current role</dt><dd>IT Help Desk &amp; L1 Support, Saven Technologies</dd></div>
+<div><dt>Looking for</dt><dd>Incident management, application monitoring and infrastructure support</dd></div>
+<div><dt>Tools</dt><dd>Jira Service Management, Nagios, Datadog, Sumo Logic</dd></div>
+<div><dt>Location</dt><dd>Hyderabad, Telangana, India</dd></div>
+</dl>
+</aside>
+</section>
+
+<section class="row" id="about">
+<h2>About</h2>
+<div>
+<p>I’m the first person users reach when something breaks. I handle hardware, software and network issues over tickets, phone and email, work to SLA timelines, and prioritize by severity and business impact.</p>
+<p>When an issue needs L2 or L3, I hand it over with symptoms, steps taken and context, so nobody has to ask the user the same questions twice.</p>
+<p>My goal is to move into application monitoring, then system administration, infrastructure, cloud and network support. Outside work, I explain the Indian Armed Forces, their technology and careers in simple language.</p>
+</div>
+</section>
+
+<section class="row" id="skills">
+<h2>Skills</h2>
+<dl class="skills">
+<div><dt>Support and ITSM</dt><dd>L1 support, incident and ticket management in Jira Service Management, SLA adherence, prioritization and escalation, remote support</dd></div>
+<div><dt>Troubleshooting</dt><dd>Root cause analysis, hardware, software and network issues, knowledge base documentation</dd></div>
+<div><dt>Networking</dt><dd>DNS, DHCP, VPN, TCP/IP, LAN/WAN basics, connectivity troubleshooting</dd></div>
+<div><dt>Monitoring</dt><dd>Nagios, plus working knowledge of Sumo Logic log search and Datadog dashboards and alerts</dd></div>
+<div><dt>Systems</dt><dd>Windows desktop and server basics, Linux and Ubuntu</dd></div>
+<div><dt>Learning now</dt><dd>Deeper observability with Sumo Logic and Datadog, advanced networking, Linux administration and cloud</dd></div>
+</dl>
+</section>
+
+<section class="row" id="experience">
+<h2>Experience</h2>
+<div>
+<article class="job now">
+<header><h3>IT Help Desk &amp; L1 Support Engineer</h3><span class="when">Dec 2025 to present</span></header>
+<p class="org">Saven Technologies, Hyderabad</p>
+<ul>
+<li>Resolve hardware, software and network issues as the first point of contact, and escalate complex ones with complete details.</li>
+<li>Log every incident with symptoms, steps taken and resolution, which speeds up future fixes.</li>
+<li>Manage the full incident lifecycle in Jira Service Management and track escalations with L2, L3 and cross-functional teams.</li>
+<li>Monitor system health and respond to alerts in Nagios, and check application health in Sumo Logic and Datadog to support triage.</li>
+<li>Apply DNS, DHCP, VPN and TCP/IP knowledge to connectivity issues in Windows environments.</li>
+<li>Built working knowledge of the organization’s IT infrastructure, helping reduce repeat incidents.</li>
+</ul>
+</article>
+<article class="job">
+<header><h3>Student Intern</h3><span class="when">Dec 2024 to Jan 2025</span></header>
+<p class="org">Nichebit, Hyderabad</p>
+<ul>
+<li>Trained in HTML, CSS, JavaScript and React.js basics, and applied them on a live team project.</li>
+<li>Debugged and tested front-end changes in a version-controlled, team-reviewed workflow.</li>
+</ul>
+</article>
+</div>
+</section>
+
+<section class="row edu" id="education">
+<h2>Education</h2>
+<div>
+<p><b>B.Tech, Computer Science and Engineering</b><br>CMR Engineering College, Hyderabad. Aug 2021 to May 2025.</p>
+<p><b>Certifications and job simulations</b><br>Networking Basics. GE Aerospace, Explore Digital Technology job simulation. British Airways, Data Science job simulation.</p>
+</div>
+</section>
+
+<section class="row" id="contact">
+<h2>Contact</h2>
+<div>
+<p>I’m open to roles in incident management, application monitoring and infrastructure support. Email or LinkedIn both work.</p>
+<div class="mailcard">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+<div class="mc-text"><span class="mc-label">Email</span><a class="mc-addr" href="mailto:kakarlapudianushvarma@gmail.com">kakarlapudianushvarma@gmail.com</a></div>
+<button type="button" class="mc-copy" id="copy" aria-live="polite">Copy</button>
+</div>
+<div class="btns"><a class="btn p" href="mailto:kakarlapudianushvarma@gmail.com">Send an email</a><a class="btn" href="https://www.linkedin.com/in/anush-varma-kakarlapudi-780530234/" target="_blank" rel="noopener">Open LinkedIn</a></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Anush Varma Kakarlapudi</div></footer>
+<script>
+(function(){var b=document.getElementById('copy');if(!b)return;var t='kakarlapudianushvarma@gmail.com';
+function done(m){b.textContent=m;setTimeout(function(){b.textContent='Copy'},2000)}
+function fallback(){try{var r=document.createRange();r.selectNodeContents(document.querySelector('.mc-addr'));var s=window.getSelection();s.removeAllRanges();s.addRange(r);done('Selected')}catch(e){done('Copy failed')}}
+b.addEventListener('click',function(){try{navigator.clipboard.writeText(t).then(function(){done('Copied')},fallback)}catch(e){fallback()}});
+})();
+</script>
+</body>
+</html>
